@@ -1,0 +1,328 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0%;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+}
+.main img{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 300px;
+}
+nav{
+    margin-left: 350px;
+    word-spacing: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome{
+    position: absolute;
+    top: 30%;
+    width: 350px;
+    height: 400px;
+    color: white;
+    padding-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.welcome p{
+    margin-bottom: 20px;
+}
+.welcome button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(74, 6, 6);
+    cursor: pointer;
+}
+.sticker{
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    padding-top: 8%;
+}
+.sticker img{
+    width: 20%;
+    height: 100px;
+}
+.service{
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    
+}
+.text{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.coffee{
+    width: 250px;
+    height: 350px;
+    background-color: beige;
+    margin: 20px;
+}
+.coffee img{
+    width: 220px;
+    height: 250px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.coffee h3{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.coffee h2{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.text1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.dessert{
+    width: 250px;
+    height: 350px;
+    background-color: beige;
+    margin: 20px;
+
+}
+.dessert img{
+    width: 220px;
+    height: 250px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.dessert h3{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.dessert h2{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.explore{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+   
+}
+.explore img{
+    width: 100%;
+    height: 300px;
+}
+.explore p{
+    position: absolute;
+    top: 20%;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 70px;
+    color: rgb(74, 6, 6);
+}
+.explore button{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 6%;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: rgb(224, 220, 213);
+    border-color: rgb(74, 6, 6);
+    cursor: pointer;
+}
+.explore button:hover{
+    background-color: rgb(74, 6, 6);
+    color: rgb(224, 220, 213);
+}
+.join{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+   
+}
+.join img{
+    width: 100%;
+    height: 400px;
+}
+.search-bar {
+  display: flex;
+  margin: 0px;
+}
+
+.search-bar input {
+    width: 250px;
+    height: 20px;
+  padding: 7px;
+  background-color: transparent;
+  border-color: rgb(74, 6, 6);;
+  color: black;
+  border-radius: 20px;
+}
+.search-bar button {
+    width: 120px;
+  padding: 8px 17px;
+  background-color: rgb(74, 6, 6);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.join h2{
+    position: absolute;
+    top: 20%;
+     color: rgb(74, 6, 6);
+    padding-left: 600px;
+    font-size: xx-large;
+}
+.join p{
+    position: absolute;
+    top: 33%;
+    color: rgb(74, 6, 6);
+    padding-left: 600px;
+    font-size: 20px;
+}
+.last {
+    width: 100%;
+    display: flex;
+    background-color: rgb(74, 6, 6);
+    color: white;
+    padding: 20px;
+    gap: 70px;
+    padding: 5rem 7rem;   
+}
+.last h2{
+    margin-bottom: 20px;
+}
+.last p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.last .last1 i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    position: relative;
+  }
+
+  nav {
+    margin-left: 0;
+    word-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .welcome {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .cof, .des {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coffee, .dessert {
+    width: 90%;
+  }
+
+  .explore p, .explore button,
+  .join h2, .join p,
+  .search-bar {
+    padding-left: 20px;
+    left: auto;
+  }
+
+  .join h2 {
+    top: 20%;
+    font-size: 24px;
+  }
+
+  .join p {
+    top: 35%;
+    font-size: 18px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+    top: 55%;
+    padding-left: 0;
+  }
+
+  .last {
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    height: auto;
+  }
+}
+.footer{
+    text-align: center;
+    padding: 2rem 3rem;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
